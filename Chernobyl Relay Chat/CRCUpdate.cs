@@ -14,7 +14,7 @@ namespace Chernobyl_Relay_Chat
 
         public static bool CheckFirstUpdate()
         {
-            UpdateChecker updateChecker = new UpdateChecker("TKGP", "Chernobyl-Relay-Chat");
+            UpdateChecker updateChecker = new UpdateChecker("Thom-Rum", "Chernobyl-Relay-Chat");
             UpdateType updateType;
             try
             {
@@ -50,7 +50,7 @@ namespace Chernobyl_Relay_Chat
 
         public static async Task<bool> CheckUpdate()
         {
-            UpdateChecker updateChecker = new UpdateChecker("TKGP", "Chernobyl-Relay-Chat");
+            UpdateChecker updateChecker = new UpdateChecker("Thom-Rum", "Chernobyl-Relay-Chat");
             UpdateType updateType;
             try
             {

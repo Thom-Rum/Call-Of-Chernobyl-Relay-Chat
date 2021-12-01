@@ -5,7 +5,7 @@
 --| https://github.com/TKGP/Chernobyl-Relay-Chat
 
 An integrated chat client for Call of Chernobyl 1.4.12 or later, with any and all addons.
-Bug reports and suggestions may submitted as issues on GitHub or via email to: contact.tkgp@gmail.com
+Original work was done by TKGP, and all credit and glory goes to them. Uplift to newer dotnet and nuget versions was done by Thom-Rum.
 
 
 --| Installation
@@ -24,6 +24,7 @@ You may use text commands from the game or client by starting with a /. Use /com
 
 --| Credits
 
+Chernobyl Relay Chat: TKGP
 GitHub: Octokit
 Max Hauser: semver
 Mirco Bauer: SmartIrc4Net

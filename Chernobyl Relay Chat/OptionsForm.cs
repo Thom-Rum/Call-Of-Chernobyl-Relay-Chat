@@ -136,8 +136,8 @@ namespace Chernobyl_Relay_Chat
 
         private readonly Dictionary<string, int> channelToIndex = new Dictionary<string, int>()
         {
-           ["#ubuntu"] = 0,
-           ["#ubuntu-mate"] = 1,
+           ["##CherRelayChat"] = 0,
+           ["##CherRelayChat"] = 1,
            // ["#crc_english"] = 0,
            // ["#crc_english_rp"] = 1,
            // ["#crc_english_shitposting"] = 2,
@@ -148,8 +148,8 @@ namespace Chernobyl_Relay_Chat
 
         private readonly Dictionary<int, string> indexToChannel = new Dictionary<int, string>()
         {
-            [0] = "#ubuntu",
-            [1] = "#ubuntu-mate",
+            [0] = "##CherRelayChat",
+            [1] = "##CherRelayChat",
             //[0] = "#crc_english",
             //[1] = "#crc_english_rp",
             //[2] = "#crc_english_shitposting",

@@ -28,8 +28,8 @@ namespace Chernobyl_Relay_Chat
            // ["#crc_tech_support"] = "eng",
            // ["#crc_russian"] = "rus",
            // ["#crc_russian_rp"] = "rus",
-           ["#ubuntu"] = "eng",
-           ["#ubuntu-mate"] = "rus",
+           ["##CherRelayChat"] = "eng",
+           ["##CherRelayChat"] = "rus",
 
         };
 
@@ -67,7 +67,7 @@ namespace Chernobyl_Relay_Chat
             {
                 // Problems
                 throw ex;
-            }
+            }  
 
             deathFormats = loadXmlList(@"res\death_formats.xml");
             deathTimes = loadXmlList(@"res\death_times.xml");

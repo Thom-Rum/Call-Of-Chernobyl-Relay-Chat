@@ -14,7 +14,7 @@ namespace Chernobyl_Relay_Chat
         private static RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\Chernobyl Relay Chat");
 #endif
 
-        public const string Server = "irc.libera.chat/";
+        public const string Server = "irc.libera.chat";
         public const string InPath = @"\..\gamedata\configs\crc_input.txt";
         public const string OutPath = @"\..\gamedata\configs\crc_output.txt";
 
@@ -39,8 +39,8 @@ namespace Chernobyl_Relay_Chat
 
         private static readonly Dictionary<string, string> defaultChannel = new Dictionary<string, string>()
         { // old channels were #crc_english and russian
-            ["eng"] = "#ubuntu-mate",
-            ["rus"] = "#ubuntu",
+            ["eng"] = "##CherRelayChat",
+            ["rus"] = "##CherRelayChat",
         };
 
         public static string ChannelProxy()

@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
 	<string id="crc_info">
-		<text>����������</text>
+		<text>Èíôîðìàöèÿ</text>
 	</string>
 	<string id="crc_error">
-		<text>������</text>
+		<text>Îøèáêà</text>
 	</string>	
 	<string id="crc_ccon">
-		<text>��-��������</text>
+		<text>«Î-Ñîçíàíèå»</text>
 	</string>
 	<string id="crc_unknown">
-		<text>�����������</text>
+		<text>Íåèçâåñòíûé</text>
 	</string>
 	<string id="crc_send">
-		<text>���������</text>
+		<text>Îòïðàâèòü</text>
 	</string>
 	<string id="crc_close">
-		<text>�������</text>
+		<text>Çàêðûòü</text>
 	</string>
 	
 	<string id="crc_actor_bandit">
-		<text>���������</text>
+		<text>«Áàíäèòû»</text>
 	</string>
 	<string id="crc_actor_csky">
-		<text>������� ����</text>
+		<text>«×èñòîå Íåáî»</text>
 	</string>
 	<string id="crc_actor_dolg">
-		<text>�����</text>
+		<text>«Äîëã»</text>
 	</string>
 	<string id="crc_actor_ecolog">
-		<text>�������</text>
+		<text>«Ó÷¸íûå»</text>
 	</string>
 	<string id="crc_actor_freedom">
-		<text>��������</text>
+		<text>«Ñâîáîäà»</text>
 	</string>
 	<string id="crc_actor_stalker">
-		<text>���������</text>
+		<text>«Îäèíî÷êè»</text>
 	</string>
 	<string id="crc_actor_killer">
-		<text>��������</text>
+		<text>«Íà¸ìíèêè»</text>
 	</string>
 	<string id="crc_actor_army">
-		<text>��������</text>
+		<text>«Âîåííûå»</text>
 	</string>
 	<string id="crc_actor_monolith">
-		<text>��������</text>
+		<text>«Ìîíîëèò»</text>
 	</string>
 	<string id="crc_actor_zombied">
-		<text>�������������</text>
-	</string>	
+		<text>Çîìáèðîâàííûå</text>
+	</string>
 	<string id="crc_actor_renegade">
-		<text>�������</text>
+		<text>ðåíåãàò</text>
 	</string>
 </string_table>
 

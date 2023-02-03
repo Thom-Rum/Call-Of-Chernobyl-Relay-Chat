@@ -5,10 +5,17 @@ All credit goes to TKGP.
 
 ![CRC-Screenshot](https://user-images.githubusercontent.com/95293308/166155945-211684c7-6486-4ee0-bc8e-ae56914b62d4.jpg)
 
-# Installation
+# Installing CoCRC
 1. Install the [.NET framework](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) if you don't have it already  
 2. Download CoCRC-(latest-version).7z from the Releases section, and use 7zip or another program to unzip CoCRC-(latest-version).7z.
 3. Copy the files inside the folder into your Call of Chernobyl directory.
+
+
+# Upgrading CoCRC
+
+1. Open Registry Editor in Windows, and go to HKEY_CURRENT_USER -> SOFTWARE -> Chernobyl Relay Chat
+2. Delete the Chernobyl Relay Chat folder in Registry Editor.
+3. Proceed with normal installation.
 
 
 # Usage

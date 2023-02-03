@@ -15,7 +15,7 @@ namespace Chernobyl_Relay_Chat
 #endif  
         //irc.gamesurge.net
         //irc.slashnet.org
-        public const string Server = "irc.gamesurge.net";
+        public const string Server = "irc.undernet.org";
         public const string InPath = @"\..\gamedata\configs\crc_input.txt";
         public const string OutPath = @"\..\gamedata\configs\crc_output.txt";
 

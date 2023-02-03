@@ -64,7 +64,7 @@ namespace Chernobyl_Relay_Chat
             {
                 foreach (Process process in Process.GetProcesses())
                 {
-                    if (process.ProcessName == "xrEngine")
+                    if (process.ProcessName == "xrEngine")  //process.MainWindowTitle == "S.T.A.L.K.E.R.: Call of Pripyat"
                     {
                         string path = Path.GetDirectoryName(process.GetProcessPath());
                         if (File.Exists(path + CRCOptions.InPath))

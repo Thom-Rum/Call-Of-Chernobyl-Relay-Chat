@@ -44,7 +44,8 @@ The package GithubUpdate is no longer supported by the owner, and relies on Octo
 --| Credits
 
 Chernobyl Relay Chat: TKGP
-CoCRC Testers and family: Tolik_Lucky_Bastard, ElekTrick, Pretov, Pogodemon, Manny, TwistedLoner, Dancher743
+Chernobyl Relay Chat Rebirth: itsAnchorpoint
+CoCRC Testers and family: Tolik_Lucky_Bastard, ElekTrick, Pretov, Pogodemon, Manny, TwistedLoner, Dancher743 and everyone who uses CRC and helped me with testing and keeping the community alive.
 GitHub: Octokit
 Max Hauser: semver
 Mirco Bauer: SmartIrc4Net

@@ -64,7 +64,19 @@ namespace Chernobyl_Relay_Chat
             {
                 foreach (Process process in Process.GetProcesses())
                 {
-                    if (process.ProcessName == "xrEngine")  //process.MainWindowTitle == "S.T.A.L.K.E.R.: Call of Pripyat"
+                    if (process.ProcessName == "xrEngine")
+                    {
+                        string path = Path.GetDirectoryName(process.GetProcessPath());
+                        if (File.Exists(path + CRCOptions.InPath))
+                        {
+                            gamePath = path;
+                            firstClear = false;
+                            processID = process.Id;
+                            UpdateSettings();
+                            break;
+                        }
+                    }
+                    else if (process.MainWindowTitle == "S.T.A.L.K.E.R.: Anomaly")  //process.MainWindowTitle == "S.T.A.L.K.E.R.: Call of Pripyat"  could be used for CoP and SoC if gamedata is modified to work with it.
                     {
                         string path = Path.GetDirectoryName(process.GetProcessPath());
                         if (File.Exists(path + CRCOptions.InPath))

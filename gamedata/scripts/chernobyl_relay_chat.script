@@ -205,6 +205,11 @@ end
 class "ChatBox" (CUIScriptWnd)
 function ChatBox:__init() super()
 	-- Disable keypress callback so other scripts don't fire while typing
+	local success, error_message = pcall(function()  
+		-- try Register_UI, and if it fails keep your mouth shut rather than crash CRC.
+		Register_UI("ChatBox", "chernobyl_relay_chat")
+	end)
+
 	db.actor:set_callback(callback.key_press)
 	
 	self:SetWndRect(Frect():set(0, 0, 1024, 768))
@@ -282,7 +287,15 @@ end
 
 function ChatBox:Cancel()
 	chatBox:HideDialog()
+
+	local success, error_message = pcall(function()
+		-- try Register_UI, and if it fails keep your mouth shut rather than crash CRC.
+		Unregister_UI("ChatBox") 
+	end)
+
+	--possible fix to a stack trace: 0x000000014014D6CA (moved this BEFORE = nil)
 	chatBox = nil
 	-- Re-enable keypress callback when done
 	db.actor:set_callback(callback.key_press, bind_stalker_ext.on_key_press, db.actor_binder)
+
 end
